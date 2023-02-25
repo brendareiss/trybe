@@ -42,6 +42,6 @@ div:nth-of-type(5) > h3 {
     font-weight: 600;
 }
 
-div:nth-of-type(odd) h3 {
+div:nth-child(odd) h3 {
     font-style: italic;
 }
