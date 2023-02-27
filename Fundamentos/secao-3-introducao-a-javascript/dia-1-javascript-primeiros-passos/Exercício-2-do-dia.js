@@ -24,3 +24,4 @@ if (valorCusto >= 0 && valorVenda >= 0) {
   console.log("Error, os valores não podem ser negativos!");
 };
 
+
