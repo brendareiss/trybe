@@ -13,3 +13,9 @@ Exercício da Aula de For:
 Utilize o for para imprimir os elementos da lista groceryList com o console.log();
 
 #######################################################################################
+
+Exercício da aula de For Of:
+
+Utilize o for/of para imprimir os elementos da lista names com o console.log();
+
+##########################################################################################
