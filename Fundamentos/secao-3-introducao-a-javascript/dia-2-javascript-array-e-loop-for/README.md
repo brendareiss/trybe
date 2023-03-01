@@ -1,0 +1,1 @@
+# Exercícios do dia 2 - JavaScript: Array e loop For
