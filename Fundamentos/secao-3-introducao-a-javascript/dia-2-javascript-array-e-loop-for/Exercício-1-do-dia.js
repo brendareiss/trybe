@@ -75,11 +75,33 @@ let result = 0;
 
 //console.log(fatorial);
 
-let word = 'brenda';
-let reverseWord = '';
+//let word = 'brenda';
+//let reverseWord = '';
 
-for (let index = 0; index < word.length; index += 1) {
-  reverseWord += word[word.length - 1 - index];
+//for (let index = 0; index < word.length; index += 1) {
+//  reverseWord += word[word.length - 1 - index];
+//}
+
+//console.log(reverseWord);
+
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+let biggestWord = array[0];
+let smallestWord = array[0];
+
+for (let index = 1; index < array.length; index += 1) {
+  if (array[index].length > biggestWord.length) {
+    biggestWord = array[index];
+  }
 }
 
-console.log(reverseWord);
+for (let index = 1; index < array.length; index += 1) {
+  if (array[index].length < smallestWord.length) {
+    smallestWord = array[index];
+  }
+}
+
+console.log(biggestWord);
+console.log(smallestWord);
+
