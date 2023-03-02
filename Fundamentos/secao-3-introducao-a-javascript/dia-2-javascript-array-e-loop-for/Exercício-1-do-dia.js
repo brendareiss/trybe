@@ -5,7 +5,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //}
 
 
-//let result = 0;
+let result = 0;
 //for (let index = 0; index < numbers.length; index +=1) {
 //    result += numbers[index];
 //}
@@ -27,12 +27,25 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //    console.log("valor menor ou igual que 20");
 //}
 
-let higherNumber = numbers[0];
+//let higherNumber = numbers[0];
 
-for (let index = 0; index < numbers.length; index +=1) {
-    if (numbers[index] > higherNumber) {
-        higherNumber = numbers[index];
+//for (let index = 0; index < numbers.length; index +=1) {
+//    if (numbers[index] > higherNumber) {
+//        higherNumber = numbers[index];
+//    }
+//}
+
+//console.log(higherNumber);
+
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 !== 0) {
+        result += 1;
     }
 }
 
-console.log(higherNumber);
+if (result === 0){
+    console.log("nenhum valor ímpar encontrado");
+} else {
+    console.log(result);
+}
