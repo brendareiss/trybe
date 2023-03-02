@@ -20,7 +20,7 @@ Utilize o for/of para imprimir os elementos da lista names com o console.log();
 
 ##########################################################################################
 
-Exercício 1 do dia da aula de Array e loop For:
+Exercícios do dia da aula de Array e loop For:
 
 Considere esse array para realizar os próximos exercícios.
 
@@ -45,3 +45,7 @@ Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
 
 Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
 
+---------------------------------------------------------------------------------------
+Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
+---------------------------------------------------------------------------------------
+Utilize a estrutura de repetição for para escrever dois algoritmos: um que imprima no console a maior palavra desse array e outro que imprima a menor. Considere o número de caracteres de cada palavra.
