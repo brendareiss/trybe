@@ -12,36 +12,36 @@
         <h1 id="title">Formulário Trybe Travel</h1>
         <form id="main-form">
             <label for="fullName">Nome Completo</label>
-            <input type="text" id="fullName" minlength="10" maxlength="40">
+            <input type="text" id="fullName" minlength="10" maxlength="40" class="form-control">
             <label for="email">E-mail</label>
-            <input type="text" id="email" minlength="10" maxlength="50">
+            <input type="text" id="email" minlength="10" maxlength="50" class="form-control">
             <label for="destinations">Destino Preferido</label>
             <div>
-            <input type="radio" name="destinations" id="dest1"> Cidade
+            <input type="radio" name="destinations" id="dest1" class="form-check-input"> Cidade
             </div>
             <div>
-            <input type="radio" name="destinations" id="dest2"> Campo
+            <input type="radio" name="destinations" id="dest2" class="form-check-input"> Campo
             </div>
             <div>
-            <input type="radio" name="destinations" id="dest3"> Praia
+            <input type="radio" name="destinations" id="dest3" class="form-check-input"> Praia
             </div>
             <div>
-            <input type="radio" name="destinations" id="dest4"> Montanha
+            <input type="radio" name="destinations" id="dest4" class="form-check-input"> Montanha
             </div>
             <label for="question">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
-            <textarea id="question" maxlength="500" rows="6" cols="50"></textarea>
+            <textarea id="question" maxlength="500" rows="6" cols="50" class="form-control"></textarea>
             <label for="date">Qual a melhor data para realizar sua viagem?</label>
-            <input type="date" id="date">
+            <input type="date" id="date" class="form-control">
             <div>
             <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
-            <input type="checkbox" id="promo">
+            <input type="checkbox" id="promo" class="form-check-input">
             </div>
             <div>
             <label for="agreement">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
-            <input type="checkbox" id="agreement">
+            <input type="checkbox" id="agreement" class="form-check-input">
             </div>
-            <button type="submit" id="submit-btn" disabled>Enviar</button>
-            <button type="reset" id="clear-btn">Limpar informações</button>
+            <button type="submit" id="submit-btn" class="btn btn-primary" disabled>Enviar</button>
+            <button type="reset" id="clear-btn" class="btn btn-primary">Limpar informações</button>
         </form>
         <script src="Exercício-do-dia.js"></script>
     </body>
