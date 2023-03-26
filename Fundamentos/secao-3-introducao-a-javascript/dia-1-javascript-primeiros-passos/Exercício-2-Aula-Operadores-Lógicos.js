@@ -7,3 +7,4 @@ if (weekDay == "segunda-feira" || weekDay == "terça-feira" || weekDay == "quart
 }
 
 console.log(weekDay);
+
